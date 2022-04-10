@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ass9-cssGrid></title>
+    <style>
+        .contaier{
+            height: 500px;
+            width: 800px;
+            border: 5px solid black;
+            grid-template-columns: 1fr,1fr,1fr,1fr;
+            row-gap: 10px;
+            column-gap: 10px;
+            padding: 15px 10px;
+            margin: auto;
+
+        }
+        .item{
+            background-color: blueviolet;
+            color: antiquewhite;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .itemA{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: aqua;
+            color: antiquewhite;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .itemG{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+           background-color: aqua;
+            color: antiquewhite;
+            text-align: center;
+            border-radius: 6px;
+        }
+        .itemK{
+            
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: aqua;
+            color: antiquewhite;
+            text-align: center;
+            border-radius: 6px;
+
+        }
+        .itemB{
+            grid-column-start: 3/4;
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemC{
+            
+            grid-column-start: 3/4;
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+
+        }
+        .itemD{
+            
+            grid-column-start: 3/4;
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemE{
+            .itemB{
+            grid-column-start: 3/4;
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemF{
+            grid-column-start: 3/4;
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+
+        .itemH{
+            grid-column-start: 3/4;
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemI{
+            grid-column-start: 3/4;
+            grid-row: 4/5;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemJ{
+            grid-column-start: 3/4
+            grid-row: 1/2;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemL{
+            grid-column-start: 4/5;
+            grid-row: 5/6;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+        .itemM{
+            grid-column-start: 1/2;
+            grid-row: 6/7;
+            background-color: blanchedalmond;
+            padding: 20px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h3>web page</h3>
+    <div class="container">
+    <div class="itemA">A</div>
+    <div class="itemB">B</div>
+    <div class="itemC">C</div>
+    <div class="itemD">D</div>
+    <div class="itemE"><Em></Em></div>
+    <div class="itemF">F</div>
+    <div class="itemG">G</div>
+    <div class="itemH">H</div>
+    <div class="itemI">I</div>
+    <div class="itemJ">J</div>
+    <div class="itemK">K</div>
+    <div class="itemL">L</div>
+    <div class="itemM">M</div>
+    </div>
+    
+    
+    
+
+    
+</body>
+</html>
